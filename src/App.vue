@@ -45,37 +45,22 @@
       padding: 0px;
     }
   }
-  @-webkit-keyframes fadein{
-    0% {
-      opacity: 0;
-      visibility: hidden;
-    }
-    100% {
-      opacity: 1;
-      visibility: visible;
-    }
-  }
   .title {
     margin-top: 10vh;
     margin-right: 10px;
     float: right;
-    visibility: hidden;
-    -webkit-animation: fadein 2s forwards;
-    animation-delay: 1s;
     h1 {
       font-family: "madre-script";
       font-size: 50px;
       line-height: 56px;
       text-align: center;
       color: #333;
-      text-shadow: 0 3px 0 #CCC;
+      text-shadow: white 0px 0px 10px;
     }
   }
   .countdown {
     margin-top: 50px;
     text-align: center;
-    visibility: hidden;
-    -webkit-animation: fadein 1s forwards;
-    animation-delay: 2s;
+    text-shadow: white 0px 0px 10px;
   }
 </style>

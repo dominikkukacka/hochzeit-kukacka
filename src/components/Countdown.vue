@@ -76,12 +76,6 @@
     .digit {
       display: inline;
       margin: 5px;
-      span {
-        // font-weight: 500;
-        &.seconds {
-          color: green;
-        }
-      }
     }
   }
 </style>
